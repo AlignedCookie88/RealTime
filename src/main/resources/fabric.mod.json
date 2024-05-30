@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "real_time",
+  "version": "${version}",
+  "name": "Real Time",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/AlignedCookie88/RealTime"
+  },
+  "license": "MIT",
+  "icon": "assets/real_time/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.alignedcookie88.real_time.RealTime"
+    ]
+  },
+  "mixins": [
+    "real_time.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
