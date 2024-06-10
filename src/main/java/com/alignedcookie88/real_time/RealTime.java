@@ -71,7 +71,8 @@ public class RealTime implements ModInitializer {
                         "I told you not to drink coke after 2 o' clock!",
                         "I've heard taking melatonin helps.",
                         "Maybe you should talk to your doctor.",
-                        "Have you tried aromatherapy?"
+                        "Have you tried aromatherapy?",
+                        "There's no escape."
                 };
 
                 player.sendMessage(Text.of(messages[new Random().nextInt(messages.length)]), true);
